@@ -41,8 +41,11 @@ hold off;
 
 ## Analysis and Test Results
 ### Well_log Dataset
+
 <img width="500" alt="screen shot 2017-03-22 at 14 16 53" src="https://cloud.githubusercontent.com/assets/18366839/24195332/02e41820-0f02-11e7-96af-9612bf01ea1a.png">
+
 ### Well_log_no_outliers Dataset
+
 <img width="500" alt="screen shot 2017-03-22 at 14 17 08" src="https://cloud.githubusercontent.com/assets/18366839/24195333/03c9440e-0f02-11e7-9597-5de11daaff94.png">
 
 In order to fine tune the threshold parameters, the algorithm were run many times to obtain the best results. Following results point out that the algorithm were fed by both datasets and the values in the source code are the best results achieved so far and almost detected each change point that any human is able to recognize. As depicted above, approximately 60 change-points were detected by our algorithm. Best results were obtained by parameters values set to 1,09 and 1,1 respectively.
